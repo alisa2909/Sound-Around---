@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+
+}
+
+.top-frame {   
+    display: flex;   
+    flex-direction: column;   
+    height: auto;    
+    margin: 0;   
+    padding: 0;   
+    justify-content: center;
+    position: relative;
+    overflow: hidden; 
+}   
+
+.backgroundfade {   
+    width: 100%;   
+    height: auto;   
+    z-index: 1;
+    object-fit: cover;  
+}   
+
+.scrolling-text {   
+    position: absolute;
+    left: 0;  
+    overflow: hidden;   
+    z-index: 2;   
+    font-size: 150px;  
+    font-weight: medium;  
+    font-family: 'HelveticaNeueCyr', sans-serif;  
+    white-space: nowrap;   
+    animation: scroll-right 10s linear infinite;   
+    margin: auto;   
+}   
+
+.glass {  
+    position: absolute;  
+    top: 0;  
+    height: 100%;    
+    background: rgba(255, 255, 255, 0.1);  
+    z-index: 3;  
+}  
+
+.glassleft {  
+    left: 0; 
+    backdrop-filter: blur(5px); 
+    width: 57%;  
+}  
+
+.glassright {  
+    right: 0;  
+    backdrop-filter: blur(5px);  
+    width: 19%;
+}
+
+.secondframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1%;
+}
+
+.secondframe1{
+    margin-top: 1%;
+}
+
+.sframeMargin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 1%;
+}
+
+.gif{
+    height: 248px;
+    background-color: #555555;
+    float: left;
+}
+.gif1{  
+    width: 43%;
+    margin: 0 1% 0 1%;
+    
+}
+.gif2{  
+    width: 54%;
+    background-color: white;
+    margin: 0 1% 0 0;
+
+}
+.gif1 img{
+    width: 100%;
+    height: 100%;
+}
+.gif2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.scrolling-text-2{
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9; 
+    left: 0; 
+    overflow: hidden;
+}
+
+.scrolling-text-2 p{   
+    font-size: 65px;
+    font-weight: medium;  
+    font-family: 'HelveticaNeueCyr', sans-serif;  
+    white-space: nowrap;   
+    animation: scroll-left 5s linear infinite;   
+    margin: 1%;   
+}   
+
+.secgif{
+    height: 528px;
+    background-color: #D9D9D9;
+    float: left;
+}
+.gif-circle{  
+    width: 59%;
+}
+
+.gif-circle img{  
+    width: 100%;
+    height: 100%;
+}
+.gif-op{  
+    width: 19%;
+    background-color: #555555;
+}
+.gif-op img{  
+    width: 97%;
+    display: block;
+    margin: auto;
+    animation: fadeIn 10s ease infinite; 
+    height: 100%;
+}
+
+.gif-smallcircle{  
+    width: 18%;
+    background-color: #555555;
+}
+.gif-smallcircle img{  
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    height: 100%;
+}
+
+.feelit{
+    background-color: #D9D9D9;
+    margin-top: 1%;
+}
+
+.feelit img {
+    width:100%;
+    transition: opacity 0.3s ease;
+    height: 100%;
+}
+.feelit img:hover {
+    opacity: 0.7;
+    filter: blur(4px);
+}
+
+/* .thirthframe {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1423px;
+}
+
+.thfr {
+    color: white;
+    margin-top: 10px;
+}
+
+.leftleft {
+    width: 42%;
+    height: auto;
+    margin-left: 10px;
+}
+.leftleft img{
+    width: 100%;
+}
+
+.centertop {
+    width: 95%;
+    height: 310px;
+    margin-left: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.centertop img{
+    width: 103%;
+}
+
+.centerbottom {
+    width: 95%;
+    height: 224px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.opacity22{
+    height: 224px;
+    margin-left: -9px;
+}
+
+.rightright {
+    background-color: #555555;
+    width: 29%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.rightright img{
+    width: 100%;
+}
+
+.thirthframemiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+} */
+
+.scrolling-text-3{
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+    background-color: #555555;
+    color: #D9D9D9;  
+    left: 0; 
+    overflow: hidden;
+    margin: auto;
+}
+
+.scrolling-text-3 p{   
+    font-size: 65px;
+    font-weight: medium;  
+    font-family: 'HelveticaNeueCyr', sans-serif;  
+    white-space: nowrap;   
+    animation: scroll-left 5s linear infinite;   
+    margin:1%;   
+}   
+
+.sframeMargin2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1%;
+}
+
+.gif-leftcir{  
+    width: 65%;
+    margin-left: 1%;
+}
+
+.gif-leftcir img{  
+    width: 100%;
+    height: 100%;
+}
+.gif-midtext{  
+    width: 33%;
+    background-color: #555555;
+}
+.gif-midtext img{  
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+
+
+.lastline{
+    display: flex;    
+    justify-content: center;    
+    align-items: center;   
+    position: relative;     
+    overflow: hidden; 
+    width: 100%;
+    z-index: 1;
+}
+.hover-image {
+    width: 100%;
+    margin-top: 0.5208vw;
+    height: auto; 
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+.lastlinetext{
+    position: absolute;    
+    top: 55%; 
+    left: 7%;    
+    transform: translate(-50%, -50%);     
+    color: white;    
+    margin: auto;
+    text-align: left;
+    font-size: 30px;  
+    font-weight: medium;  
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    z-index: 2;
+}
+.lastlinetextright{
+    left: 94%;
+}
+

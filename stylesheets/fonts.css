@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "helveticaneuecyr";
+    src: url("../fonts/helveticaneuecyr-12.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "helveticaneuecyr";
+    src: url("../fonts/helveticaneuecyr-14\ \(1\).woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}

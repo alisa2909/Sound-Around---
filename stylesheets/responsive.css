@@ -1,0 +1,159 @@
+/* Медиа-запросы для адаптивной верстки */
+
+/* Для разрешения 1920x1080 (Full HD) */
+@media screen and (max-width: 1920px) {
+    html, body {
+        max-width: 1920px;
+    }
+    .scrolling-text {
+        font-size: 120px;
+    }
+    .scrolling-text-2 p, .scrolling-text-3 p {
+        font-size: 55px;
+    }
+    .lastlinetext {
+        font-size: 25px;
+    }
+}
+
+/* Для разрешения 1280x900 */
+@media screen and (max-width: 1280px) {
+    html, body {
+        max-width: 1280px;
+    }
+    .scrolling-text {
+        font-size: 90px;
+    }
+    .scrolling-text-2 p, .scrolling-text-3 p {
+        font-size: 45px;
+    }
+    .gif1, .gif2, .gif-circle, .gif-op, .gif-smallcircle {
+        height: auto;
+    }
+    .gif, .secgif {
+        height: auto;
+    }
+    .gif-op, .gif-smallcircle {
+        width: 25%;
+    }
+    .gif-circle {
+        width: 49%;
+    }
+    .gif img, .secgif img {
+        width: 100%;
+    }
+    .centertop {
+        height: auto;
+    }
+    .centerbottom {
+        height: auto;
+    }
+    .opacity22 {
+        height: auto;
+    }
+    .lastlinetext {
+        font-size: 20px;
+    }
+}
+
+/* Для разрешения 768x1024 (iPad) */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    html, body {
+        max-width: 768px;
+    }
+    .scrolling-text {
+        font-size: 60px;
+    }
+    .scrolling-text-2 p, .scrolling-text-3 p {
+        font-size: 35px;
+        animation: scroll-left 7s linear infinite;
+    }
+    .fourth {
+        flex-direction: column;
+    }
+    .leftcir, .midtext, .rightgigg {
+        width: 98%;
+
+    }
+    .lastlinetext {
+        font-size: 18px;
+        left: 8%;
+    }
+    .lastlinetextright {
+        left: 90%;
+    }
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-300px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+
+/* Для разрешения 414x896 (iPhone 6/7/8 Plus) */
+@media screen and (max-width: 414px) {
+    html, body {
+        max-width: 414px;
+    }
+    .scrolling-text {
+        font-size: 40px;
+    }
+    .scrolling-text-2 p, .scrolling-text-3 p {
+        font-size: 20px;
+        animation: scroll-left 10s linear infinite;
+    }
+    .lastlinetext {
+        font-size: 10px;
+        left: 10%;
+    }
+    .lastlinetextright {
+        left: 85%;
+    }
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-150px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+
+/* Для разрешения 360x640 (небольшие Android-устройства) */
+@media screen and (max-width: 360px) {
+    html, body {
+        max-width: 360px;
+    }
+    .scrolling-text {
+        font-size: 30px;
+    }
+    .scrolling-text-2 p, .scrolling-text-3 p {
+        font-size: 18px;
+    }
+    .lastlinetext {
+        font-size: 10px;
+        left: 12%;
+    }
+    .lastlinetextright {
+        left: 82%;
+    }
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-100px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
